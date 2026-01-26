@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.0">
   <diagram name="第 1 页" id="FiX8plOPalHT2lr_8qQT">
-    <mxGraphModel dx="183" dy="176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="454" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3AU7tTl9rTPTyHQn61k-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hallucination" vertex="1">
-          <mxGeometry height="60" width="120" x="30" y="150" as="geometry" />
+          <mxGeometry height="60" width="120" x="109" y="175" as="geometry" />
         </mxCell>
         <mxCell id="9R9voDoW56xWUbXgo2vl-9" edge="1" parent="1" source="i3AU7tTl9rTPTyHQn61k-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9R9voDoW56xWUbXgo2vl-8" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i3AU7tTl9rTPTyHQn61k-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Faithfulness →&amp;nbsp;Inconsistancy" vertex="1">
-          <mxGeometry height="50" width="120" x="220" y="80" as="geometry" />
+          <mxGeometry height="50" width="120" x="299" y="105" as="geometry" />
         </mxCell>
         <mxCell id="9R9voDoW56xWUbXgo2vl-5" edge="1" parent="1" source="9R9voDoW56xWUbXgo2vl-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9R9voDoW56xWUbXgo2vl-4" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -32,42 +32,81 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9R9voDoW56xWUbXgo2vl-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Factuality" vertex="1">
-          <mxGeometry height="60" width="120" x="220" y="240" as="geometry" />
+          <mxGeometry height="60" width="120" x="299" y="235" as="geometry" />
         </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Contradiction" vertex="1">
-          <mxGeometry height="30" width="90" x="400" y="220" as="geometry" />
+        <mxCell id="9R9voDoW56xWUbXgo2vl-30" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="230" x="479" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Fabrication" vertex="1">
-          <mxGeometry height="30" width="90" x="400" y="300" as="geometry" />
+        <mxCell id="9R9voDoW56xWUbXgo2vl-6" parent="9R9voDoW56xWUbXgo2vl-30" style="rounded=0;whiteSpace=wrap;html=1;" value="Fabrication" vertex="1">
+          <mxGeometry height="30" width="90" y="5" as="geometry" />
         </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Instruction" vertex="1">
-          <mxGeometry height="30" width="90" x="400" y="20" as="geometry" />
+        <mxCell id="9R9voDoW56xWUbXgo2vl-20" parent="9R9voDoW56xWUbXgo2vl-30" style="rounded=1;whiteSpace=wrap;html=1;" value="捏造事实" vertex="1">
+          <mxGeometry height="40" width="80" x="150" as="geometry" />
         </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Logical" vertex="1">
-          <mxGeometry height="30" width="90" x="400" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-14" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Contextual" vertex="1">
-          <mxGeometry height="30" width="90" x="400" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="捏造事实" vertex="1">
-          <mxGeometry height="40" width="80" x="550" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="矛盾事实" vertex="1">
-          <mxGeometry height="40" width="80" x="550" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="忽视 / 错误理解 Input Instruction" vertex="1">
-          <mxGeometry height="40" width="100" x="540" y="15" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="context 矛盾 / 偏差 / 不一致" vertex="1">
-          <mxGeometry height="40" width="100" x="540" y="85" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Output 矛盾 / 偏差 / 不一致" vertex="1">
-          <mxGeometry height="40" width="100" x="540" y="155" as="geometry" />
-        </mxCell>
-        <mxCell id="9R9voDoW56xWUbXgo2vl-25" edge="1" parent="1" source="9R9voDoW56xWUbXgo2vl-8" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9R9voDoW56xWUbXgo2vl-22" value="">
+        <mxCell id="9R9voDoW56xWUbXgo2vl-29" edge="1" parent="9R9voDoW56xWUbXgo2vl-30" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9R9voDoW56xWUbXgo2vl-20" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="490" y="85" as="sourcePoint" />
-            <mxPoint x="540" y="35" as="targetPoint" />
+            <mxPoint x="90" y="19.860000000000014" as="sourcePoint" />
+            <mxPoint x="140" y="19.860000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-31" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="230" x="479" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-4" parent="9R9voDoW56xWUbXgo2vl-31" style="rounded=0;whiteSpace=wrap;html=1;" value="Contradiction" vertex="1">
+          <mxGeometry height="30" width="90" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-21" parent="9R9voDoW56xWUbXgo2vl-31" style="rounded=1;whiteSpace=wrap;html=1;" value="矛盾事实" vertex="1">
+          <mxGeometry height="40" width="80" x="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-28" edge="1" parent="9R9voDoW56xWUbXgo2vl-31" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9R9voDoW56xWUbXgo2vl-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="19.860000000000014" as="sourcePoint" />
+            <mxPoint x="140" y="19.860000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-32" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="240" x="479" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-12" parent="9R9voDoW56xWUbXgo2vl-32" style="whiteSpace=wrap;html=1;rounded=0;" value="Logical" vertex="1">
+          <mxGeometry height="30" width="90" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-24" parent="9R9voDoW56xWUbXgo2vl-32" style="rounded=1;whiteSpace=wrap;html=1;" value="Output 矛盾 / 偏差 / 不一致" vertex="1">
+          <mxGeometry height="40" width="100" x="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-27" edge="1" parent="9R9voDoW56xWUbXgo2vl-32" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="19.860000000000014" as="sourcePoint" />
+            <mxPoint x="140" y="19.860000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-33" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="240" x="479" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-14" parent="9R9voDoW56xWUbXgo2vl-33" style="whiteSpace=wrap;html=1;rounded=0;" value="Contextual" vertex="1">
+          <mxGeometry height="30" width="90" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-23" parent="9R9voDoW56xWUbXgo2vl-33" style="rounded=1;whiteSpace=wrap;html=1;" value="context 矛盾 / 偏差 / 不一致" vertex="1">
+          <mxGeometry height="40" width="100" x="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-26" edge="1" parent="9R9voDoW56xWUbXgo2vl-33" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="19.86" as="sourcePoint" />
+            <mxPoint x="140" y="19.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="40" width="240" x="479" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-8" parent="9R9voDoW56xWUbXgo2vl-34" style="whiteSpace=wrap;html=1;rounded=0;" value="Instruction" vertex="1">
+          <mxGeometry height="30" width="90" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-22" parent="9R9voDoW56xWUbXgo2vl-34" style="rounded=1;whiteSpace=wrap;html=1;" value="忽视 / 错误理解 Input Instruction" vertex="1">
+          <mxGeometry height="40" width="100" x="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9R9voDoW56xWUbXgo2vl-25" edge="1" parent="9R9voDoW56xWUbXgo2vl-34" source="9R9voDoW56xWUbXgo2vl-8" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9R9voDoW56xWUbXgo2vl-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="70" as="sourcePoint" />
+            <mxPoint x="140" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
