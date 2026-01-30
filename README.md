@@ -53,11 +53,16 @@
 - 但这会引出两个关键风险假设：
 
 ### Motivation：错误或有偏见的检索可能误导生成，加剧幻觉(下面论文观点，需要实验证明)
-Paper 1: Removal of Hallucination on Hallucination: Debate-Augmented RAG (DRAG)
-Paper 2: RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models
-Paper 3: LettuceDetect: A Hallucination Detection Framework for RAG Applications
-Paper 4: ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks (精确匹配（EM）准确性、token-level F1和 entailment accuracy)
-Paper 5: ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability (仅给出一种幻觉检测方法，没有LLM和RAG中幻觉对比，也没有QA任务和Summary任务实验结果可对比，尽管Dolly(AC)中含有summary数据集)
+
+ - Paper 1: Removal of Hallucination on Hallucination: Debate-Augmented RAG (DRAG)
+
+ - Paper 2: RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models
+
+ - Paper 3: LettuceDetect: A Hallucination Detection Framework for RAG Applications
+
+ - Paper 4: ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks (精确匹配（EM）准确性、token-level F1和 entailment accuracy)
+
+ - Paper 5: ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability (仅给出一种幻觉检测方法，没有LLM和RAG中幻觉对比，也没有QA任务和Summary任务实验结果可对比，尽管Dolly(AC)中含有summary数据集)
 
 ### Concern A：防御是否会增加 hallucination、降低性能？
 - chunk rewriting / aggressive filtering / reranking 可能导致：
@@ -111,4 +116,7 @@ Paper 5: ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via M
 ## Related Work
 - Paper: **RAG LettuceDetect: A Hallucination Detection Framework for RAG Applications**
 - ![](./pic/LettuceDetect.png)
+- Paper: **RAG-HAT**
+- ![](./pic/RAG-HAT.png)
+
 
